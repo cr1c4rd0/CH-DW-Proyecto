@@ -48,8 +48,7 @@ footer {
 }
 
 .hero {
-    margin-top: 10% !important;
-    margin-bottom: 2rem;
+    margin-top: 12rem !important;
 }
 
 .hero__callaction--title {
@@ -77,11 +76,9 @@ footer {
     border-radius: 4px;
 }
 
-
-
-
-
-
+.features {
+    margin-top: 10rem;
+}
 
 .features__items {
     width: 40%;
@@ -97,6 +94,9 @@ footer {
     margin-bottom: 3%;
 }
 
+.best__practices {
+    margin-top: 15rem;
+}
 .content__practices {
     display: flex;
     flex-direction: row;
@@ -110,7 +110,19 @@ footer {
 }
 
 .practices__text {
-    padding-top: 10%;
+    padding-top: 5rem;
+}
+
+.work {
+    margin-top: 10rem;
+}
+
+.work__us {
+    margin-top: 15rem;
+}
+
+.gallery {
+    margin-top: 2rem !important;
 }
 
 .content__ourworks {
@@ -192,6 +204,10 @@ footer {
     border-radius: 3%;
 }
 
+.our_team {
+    margin-top: 15rem;
+}
+
 .content__team {
     display: flex;
     flex-direction: row;
@@ -247,6 +263,10 @@ footer {
     align-items: center;
 }
 
+.testimonials {
+    margin-top: 5rem;
+}
+
 .testimonials__section--title {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -279,6 +299,14 @@ footer {
 
 .card__profile--name span {
     font-size: large;
+}
+
+.plans {
+    margin-top: 10rem;
+}
+
+.news {
+    margin-top: 10rem;
 }
 
 .content__news {
