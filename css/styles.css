@@ -22,12 +22,10 @@ header {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 a:link {
     text-decoration: none;
-    color: #000;
 }
 
 h1, h2, h3 {
@@ -348,4 +346,17 @@ footer {
 
 .footer__foot li{
     display: inline;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        margin-top: 2rem !important;
+        text-align: center;
+    }
+    .hero-image {
+        margin-top: 10% !important;
+    }
+    .hero-content {
+        padding-top: 5%;
+    }
 }
