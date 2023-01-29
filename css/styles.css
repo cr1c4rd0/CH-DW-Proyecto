@@ -348,7 +348,14 @@ footer {
     display: inline;
 }
 
+.space {
+    margin-top: 10% !important;
+}
+
 @media (max-width: 768px) {
+    .space {
+        display: none;
+    }
     .hero {
         margin-top: 2rem !important;
         text-align: center;
