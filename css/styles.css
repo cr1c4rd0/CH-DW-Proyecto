@@ -78,15 +78,11 @@ footer {
     margin-top: 10rem;
 }
 
-.features__items {
-    width: 40%;
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 0 10% 15%;
+.feature__card {
+    margin-bottom: 5rem !important;
 }
+
+
 
 .items__layout--img {
     margin-bottom: 3%;
@@ -356,14 +352,26 @@ footer {
     .space {
         display: none;
     }
+
     .hero {
         margin-top: 2rem !important;
         text-align: center;
     }
+
     .hero-image {
         margin-top: 10% !important;
     }
+
     .hero-content {
         padding-top: 5%;
+    }
+
+    .features {
+        text-align: center !important;
+        padding: 0 6rem 0 6rem;
+    }
+
+    .content__features--section {
+        margin-bottom: 3rem;
     }
 }
