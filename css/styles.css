@@ -1,15 +1,6 @@
 /* import Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
 ul {
     list-style: none;
 }
@@ -31,30 +22,18 @@ header {
 
 a {
     text-decoration: none;
-    color: #000;
 }
 
 a:link {
     text-decoration: none;
-    color: #000;
-}
-
-a:hover {
-    color: #0E4DA4;
-    text-decoration: none;
-    font-weight: bold;
 }
 
 h1, h2, h3 {
     margin: 0;
 }
 
-table {
-    margin: 5% 20% 10% 20%;
-}
-
-table, td {
-    border: 1px solid #EEEEEE;
+footer {
+    margin-top: 10%;
 }
 
 .header__menu li {
@@ -66,18 +45,8 @@ table, td {
     display: inline;
 }
 
-
-.content {
-    margin-top: 8%;
-}
-
 .hero {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5rem;
-    align-items: center;
-    margin-bottom: 15%;
+    margin-top: 12rem !important;
 }
 
 .hero__callaction--title {
@@ -105,44 +74,23 @@ table, td {
     border-radius: 4px;
 }
 
-.content__features {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 5rem;
-    margin-bottom: 10%;
-} 
-
-.features__section--title {
-    font-size: 1.5rem;
-    font-weight: bolder;
+.features {
+    margin-top: 10rem;
 }
 
-.features__section--button {
-    width: 13%;
-    margin-top: 2rem;
-    background-color: #fff;
-    color: #0E4DA4;
-    border: 1px solid #0E4DA4;
-    padding: 1rem 3rem 1rem 2rem;
-    border-radius: 4px;
+.feature__card {
+    margin-bottom: 5rem !important;
 }
 
 
-.features__items {
-    width: 40%;
-    display: flex;
-    gap: 3rem;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: 0 0 10% 15%;
-}
 
 .items__layout--img {
     margin-bottom: 3%;
 }
 
+.best__practices {
+    margin-top: 15rem;
+}
 .content__practices {
     display: flex;
     flex-direction: row;
@@ -156,7 +104,19 @@ table, td {
 }
 
 .practices__text {
-    padding-top: 10%;
+    padding-top: 5rem;
+}
+
+.work {
+    margin-top: 10rem;
+}
+
+.work__us {
+    margin-top: 15rem;
+}
+
+.gallery {
+    margin-top: 2rem !important;
 }
 
 .content__ourworks {
@@ -238,6 +198,10 @@ table, td {
     border-radius: 3%;
 }
 
+.our_team {
+    margin-top: 15rem;
+}
+
 .content__team {
     display: flex;
     flex-direction: row;
@@ -293,6 +257,10 @@ table, td {
     align-items: center;
 }
 
+.testimonials {
+    margin-top: 5rem;
+}
+
 .testimonials__section--title {
     font-size: 1.5rem;
     font-weight: bolder;
@@ -325,6 +293,14 @@ table, td {
 
 .card__profile--name span {
     font-size: large;
+}
+
+.plans {
+    margin-top: 10rem;
+}
+
+.news {
+    margin-top: 10rem;
 }
 
 .content__news {
@@ -362,10 +338,79 @@ table, td {
     flex-direction: row;
     justify-content: space-around;
     width: 100%;
-    margin-top: 10%;
-    height: 5rem;
 }
 
 .footer__foot li{
     display: inline;
+}
+
+.space {
+    margin-top: 10% !important;
+}
+
+@media (max-width: 768px) {
+    .space {
+        display: none;
+    }
+
+    .hero {
+        margin-top: 2rem !important;
+        text-align: center;
+    }
+
+    .hero-image {
+        margin-top: 10% !important;
+    }
+
+    .hero-content {
+        padding-top: 5%;
+    }
+
+    .features {
+        text-align: center;
+    }
+
+    .feature__card {
+        text-align: center !important;
+    }
+
+    .content__features--section {
+        margin-bottom: 3rem;
+    }
+
+    .best__practices {
+        text-align: center;
+    }
+
+    .work {
+        text-align: center;
+    }
+
+    .work__us {
+        text-align: center;
+    }
+
+    .our_team {
+        text-align: center;
+    }
+
+    .testimonials {
+        text-align: center;
+    }
+
+    .card-testimonial {
+        margin-bottom: 2rem;
+    }
+
+    .plans {
+        text-align: center;
+    }
+
+    .news {
+        text-align: center;
+    }
+
+    .news__card {
+        margin-bottom: 2rem;
+    }
 }
