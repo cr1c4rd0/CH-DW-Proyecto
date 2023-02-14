@@ -8,20 +8,18 @@
 
 .header {
   height: 90vh;
-  /* the height for this element is the 95% porcent with respect on the full view */
   background-image: url(../assets/heroImage.png);
   background-size: cover;
-  /* The cover image into the element */
   background-position: top;
-  /* Convert element in a polygon */
   position: relative;
 }
 
-.header-quote {
-  background-color: rgba(255, 255, 255, 0.8);
+.hero-banner {
+  margin-top: 20% !important;
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 4px;
-  margin: 5% 0 0 5% !important;
-  padding: 1%;
+  color: #fff;
+  display: flex;
 }
 
 @media (max-width: 576px) {
