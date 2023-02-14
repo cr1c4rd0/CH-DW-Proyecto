@@ -1,3 +1,50 @@
+.btn-success {
+    background-color: #437068 !important;
+}
+
+.btn-deko {
+    margin-left: 1rem;
+}
+
 .header {
-    
+    height: 90vh;
+        /* the height for this element is the 95% porcent with respect on the full view */
+        background-image: url(../assets/heroImage.png);
+        background-size: cover;
+        /* The cover image into the element */
+        background-position: top;
+        /* Convert element in a polygon */
+        position: relative;
+}
+
+.header-quote {
+    background-color: rgba(255, 255, 255, 80%);
+    border-radius: 4px;
+    margin: 5% 0 0 5% !important;
+    padding: 1%;
+}
+
+//Breakpoints
+$smallDevices: 576px; // Small devices (landscape phones, 576px and up)
+$mediumDevices: 768px; // Medium devices (tablets, 768px and up)
+$largeDevices: 992px; // Large devices (desktops, 992px and up)
+$x-lagerDevices: 1200px; // X-Large devices (large desktops, 1200px and up)
+$xx-lagerDevices: 1400px; // XX-Large devices (larger desktops, 1400px and up)
+
+@media (max-width: $smallDevices) {
+    .contact-buttons {
+        display: none;
+    }
+}
+
+@media (max-width: $mediumDevices) {
+    .contact-buttons {
+        display: none;
+    }
+}
+
+@media (max-width: $largeDevices) {
+    .contact-buttons {
+        display: none;
+    }
 }

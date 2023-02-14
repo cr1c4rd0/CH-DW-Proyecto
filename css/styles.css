@@ -1,3 +1,43 @@
+.btn-success {
+  background-color: #437068 !important;
+}
 
+.btn-deko {
+  margin-left: 1rem;
+}
+
+.header {
+  height: 90vh;
+  /* the height for this element is the 95% porcent with respect on the full view */
+  background-image: url(../assets/heroImage.png);
+  background-size: cover;
+  /* The cover image into the element */
+  background-position: top;
+  /* Convert element in a polygon */
+  position: relative;
+}
+
+.header-quote {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  margin: 5% 0 0 5% !important;
+  padding: 1%;
+}
+
+@media (max-width: 576px) {
+  .contact-buttons {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .contact-buttons {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .contact-buttons {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
