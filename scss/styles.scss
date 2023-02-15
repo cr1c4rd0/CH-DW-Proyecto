@@ -85,6 +85,15 @@ body {
 }
 
 
+.process-card {
+    margin-bottom: 80% !important;
+}
+
+.small-process-img {
+    display: none;
+}
+
+
 
 // Responsive
 @media (max-width: $smallDevices) {
@@ -100,6 +109,19 @@ body {
     }
     .big-step {
         text-align: center;
+    }
+    .card {
+        margin-bottom: 2rem;
+    }
+    .our-process {
+        text-align: center;
+    }
+    .process-img {
+        display: none;
+    }
+    .small-process-img {
+        display:inline;
+        margin-bottom: 2rem;
     }
 }
 
