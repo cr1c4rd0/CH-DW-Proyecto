@@ -1,0 +1,169 @@
+@import "colors";
+@import "breakpoints";
+
+body {
+    background-color: $neutral-2;
+}
+
+.center-text {
+    text-align: center;
+}
+
+// Boostrap Class
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.card-img-overlay {
+    text-align: center;
+    top: auto !important;
+}
+
+.btn-success {
+    background-color: $primary-1 !important;
+    border-color: $neutral-2 !important;
+}
+
+// Theme Dekocozy
+.general-header {
+    padding-left: .5%;
+    padding-right: .5%;
+}
+
+.btn-deko {
+    margin-left: 1rem;
+}
+
+.general-header {
+    height: 100vh; // the height for this element is the 100% porcent with respect on the full view
+    background-image: url(../assets/heroImage.png);
+    background-size: cover;
+    background-position: top; 
+    position: relative;
+}
+
+.hero-banner {
+    margin-top: 20% !important;
+    background-color: rgba(0, 0, 0, 50%);
+    border-radius: 4px;
+    color: $neutral-1;
+    text-align: center;
+    padding: 5rem;
+}
+
+.primary-banner {
+    background-color: $primary-1;
+    color: $neutral-1;
+    text-align: center;
+    padding: 3rem;
+}
+
+.steps {
+    padding-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.big-step {
+    font-size: 6rem;
+    text-align: right;
+}
+
+.text-primary-deko {
+    color: $primary-1;
+}
+
+.description-step {
+    padding-top: 3rem;
+}
+
+.services {
+    margin-bottom: 6rem;
+}
+
+.card-img-overlay {
+    background-color: rgba(0,0,0, 50%);
+}
+
+
+.process-card {
+    margin-bottom: 80% !important;
+}
+
+.small-process-img {
+    display: none;
+}
+
+.get-started {
+    padding: 5rem;
+    background-image: url(../assets/Get-Started.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
+
+// Responsive
+@media (max-width: $smallDevices) {
+    .contact-buttons {
+        display: none;
+    }
+    .navbar {
+        background-color: $neutral-2;
+    }
+    .navbar-nav, .navbar-brand, .navbar-toggler {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .big-step {
+        text-align: center;
+    }
+    .card {
+        margin-bottom: 2rem;
+    }
+    .our-process {
+        text-align: center;
+    }
+    .process-img {
+        display: none;
+    }
+    .small-process-img {
+        display:inline;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: $mediumDevices) {
+    .contact-buttons {
+        display: none;
+    }
+    .navbar {
+        background-color: $neutral-2;
+    }
+    
+    .navbar-nav,
+    .navbar-brand,
+    .navbar-toggler {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .big-step {
+        text-align: center;
+    }
+}
+
+@media (max-width: $largeDevices) {
+    .contact-buttons {
+        display: none;
+    }
+    .navbar {
+        background-color: $neutral-2;
+    }
+    .navbar-nav,
+    .navbar-brand,
+    .navbar-toggler {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .big-step {
+        text-align: center;
+    }
+}
