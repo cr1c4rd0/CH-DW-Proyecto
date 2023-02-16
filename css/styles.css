@@ -88,6 +88,14 @@ body {
   display: none;
 }
 
+.get-started {
+  padding: 5rem;
+  background-image: url(../assets/Get-Started.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+}
+
 @media (max-width: 576px) {
   .contact-buttons {
     display: none;

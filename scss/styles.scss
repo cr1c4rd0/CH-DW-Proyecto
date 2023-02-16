@@ -93,7 +93,13 @@ body {
     display: none;
 }
 
-
+.get-started {
+    padding: 5rem;
+    background-image: url(../assets/Get-Started.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+}
 
 // Responsive
 @media (max-width: $smallDevices) {
