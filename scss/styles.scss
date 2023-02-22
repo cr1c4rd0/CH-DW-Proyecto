@@ -101,6 +101,30 @@ body {
     position: relative;
 }
 
+.testimonials {
+    margin-bottom: 3rem;
+}
+
+.testimonial-img {
+    margin-bottom: 1rem;
+}
+
+.footer-deck {
+    background-color: $primary-1;
+    color: $neutral-1;
+    padding: 2rem;
+}
+
+.copyright {
+    background-color: $pa-monochromatic-1;
+    color: $neutral-1;
+    padding: .5rem;
+}
+
+.newsletter {
+    background-color: $pb-monochromatic-1 !important;
+}
+
 // Responsive
 @media (max-width: $smallDevices) {
     .contact-buttons {

@@ -96,6 +96,30 @@ body {
   position: relative;
 }
 
+.testimonials {
+  margin-bottom: 3rem;
+}
+
+.testimonial-img {
+  margin-bottom: 1rem;
+}
+
+.footer-deck {
+  background-color: #437068;
+  color: #fff;
+  padding: 2rem;
+}
+
+.copyright {
+  background-color: #253D39;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.newsletter {
+  background-color: #CFA165 !important;
+}
+
 @media (max-width: 576px) {
   .contact-buttons {
     display: none;
