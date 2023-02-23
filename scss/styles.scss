@@ -25,11 +25,6 @@ body {
 }
 
 // Theme Dekocozy
-.general-header {
-    padding-left: .5%;
-    padding-right: .5%;
-}
-
 .btn-deko {
     margin-left: 1rem;
 }
@@ -40,6 +35,8 @@ body {
     background-size: cover;
     background-position: top; 
     position: relative;
+    padding-left: .5%;
+    padding-right: .3%;
 }
 
 .hero-banner {
@@ -77,13 +74,16 @@ body {
 }
 
 .services {
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 }
 
 .card-img-overlay {
     background-color: rgba(0,0,0, 50%);
 }
 
+.our-process {
+    margin-bottom: 10rem;
+}
 
 .process-card {
     margin-bottom: 80% !important;
@@ -99,10 +99,15 @@ body {
     background-size: cover;
     background-position: top;
     position: relative;
+    margin-bottom: 10rem;
+}
+
+.alliances {
+    margin-bottom: 10rem;
 }
 
 .testimonials {
-    margin-bottom: 3rem;
+    margin-bottom: 10rem;
 }
 
 .testimonial-img {
@@ -172,6 +177,22 @@ body {
     .big-step {
         text-align: center;
     }
+    .card {
+        margin-bottom: 2rem;
+    }
+    
+    .our-process {
+        text-align: center;
+    }
+    
+    .process-img {
+        display: none;
+    }
+    
+    .small-process-img {
+        display: inline;
+        margin-bottom: 2rem;
+    }
 }
 
 @media (max-width: $largeDevices) {
@@ -190,4 +211,42 @@ body {
     .big-step {
         text-align: center;
     }
+    .card {
+        margin-bottom: 2rem;
+    }
+    
+    .our-process {
+        text-align: center;
+    }
+    
+    .process-img {
+        display: none;
+    }
+    
+    .small-process-img {
+        display: inline;
+        margin-bottom: 2rem;
+    }
+}
+
+// SERVICES PAGE
+.services-general-header {
+    height: 100vh; // the height for this element is the 100% porcent with respect on the full view
+    background-image: url(../assets/services-background.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    padding-left: .5%;
+    padding-right: .5%;
+    margin-bottom: 3rem;
+}
+
+.neutral-color {
+    color: $neutral-1 !important;   
+}
+
+.paiting-section {
+    padding: 2rem;
+    background-color: $primary-1;
+    color: $neutral-1;
 }
