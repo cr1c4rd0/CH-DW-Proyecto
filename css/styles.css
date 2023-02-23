@@ -21,11 +21,6 @@ body {
   border-color: #E5E5E3 !important;
 }
 
-.general-header {
-  padding-left: 0.5%;
-  padding-right: 0.5%;
-}
-
 .btn-deko {
   margin-left: 1rem;
 }
@@ -36,6 +31,8 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
+  padding-left: 0.5%;
+  padding-right: 0.3%;
 }
 
 .hero-banner {
@@ -73,11 +70,15 @@ body {
 }
 
 .services {
-  margin-bottom: 6rem;
+  margin-bottom: 10rem;
 }
 
 .card-img-overlay {
   background-color: rgba(0, 0, 0, 0.5);
+}
+
+.our-process {
+  margin-bottom: 10rem;
 }
 
 .process-card {
@@ -94,6 +95,72 @@ body {
   background-size: cover;
   background-position: top;
   position: relative;
+  margin-bottom: 10rem;
+}
+
+.alliances {
+  margin-bottom: 10rem;
+}
+
+.testimonials {
+  margin-bottom: 10rem;
+}
+
+.testimonial-img {
+  margin-bottom: 1rem;
+}
+
+.footer-deck {
+  background-color: #437068;
+  color: #fff;
+  padding: 2rem;
+}
+
+.copyright {
+  background-color: #253D39;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.newsletter {
+  background-color: #CFA165 !important;
+}
+
+.services-general-header {
+  height: 100vh;
+  background-image: url(../assets/services-background.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-bottom: 3rem;
+}
+
+.neutral-color {
+  color: #fff !important;
+}
+
+.paiting-section {
+  padding: 2rem;
+  background-color: #437068;
+  color: #fff;
+}
+
+.service-video {
+  width: 560px;
+  height: 315px;
+}
+
+.about-general-header {
+  height: 100vh;
+  background-image: url(../assets/about-background.png);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 576px) {
@@ -123,6 +190,10 @@ body {
     display: inline;
     margin-bottom: 2rem;
   }
+  .service-video {
+    width: auto;
+    height: auto;
+  }
 }
 @media (max-width: 768px) {
   .contact-buttons {
@@ -140,6 +211,23 @@ body {
   .big-step {
     text-align: center;
   }
+  .card {
+    margin-bottom: 2rem;
+  }
+  .our-process {
+    text-align: center;
+  }
+  .process-img {
+    display: none;
+  }
+  .small-process-img {
+    display: inline;
+    margin-bottom: 2rem;
+  }
+  .service-video {
+    width: auto;
+    height: auto;
+  }
 }
 @media (max-width: 992px) {
   .contact-buttons {
@@ -156,6 +244,23 @@ body {
   }
   .big-step {
     text-align: center;
+  }
+  .card {
+    margin-bottom: 2rem;
+  }
+  .our-process {
+    text-align: center;
+  }
+  .process-img {
+    display: none;
+  }
+  .small-process-img {
+    display: inline;
+    margin-bottom: 2rem;
+  }
+  .service-video {
+    width: auto;
+    height: auto;
   }
 }
 
