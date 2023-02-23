@@ -130,6 +130,45 @@ body {
     background-color: $pb-monochromatic-1 !important;
 }
 
+// SERVICES PAGE
+.services-general-header {
+    height: 100vh; // the height for this element is the 100% porcent with respect on the full view
+    background-image: url(../assets/services-background.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    padding-left: .5%;
+    padding-right: .5%;
+    margin-bottom: 3rem;
+}
+
+.neutral-color {
+    color: $neutral-1 !important;
+}
+
+.paiting-section {
+    padding: 2rem;
+    background-color: $primary-1;
+    color: $neutral-1;
+}
+
+.service-video {
+    width: 560px;
+    height: 315px;
+}
+
+// ABOUT PAGE
+.about-general-header {
+    height: 100vh; // the height for this element is the 100% porcent with respect on the full view
+    background-image: url(../assets/about-background.png);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    padding-left: .5%;
+    padding-right: .5%;
+    margin-bottom: 3rem;
+}
+
 // Responsive
 @media (max-width: $smallDevices) {
     .contact-buttons {
@@ -157,6 +196,10 @@ body {
     .small-process-img {
         display:inline;
         margin-bottom: 2rem;
+    }
+    .service-video {
+        width: auto;
+        height: auto;
     }
 }
 
@@ -193,6 +236,10 @@ body {
         display: inline;
         margin-bottom: 2rem;
     }
+    .service-video {
+        width: auto;
+        height: auto;
+    }
 }
 
 @media (max-width: $largeDevices) {
@@ -227,26 +274,8 @@ body {
         display: inline;
         margin-bottom: 2rem;
     }
-}
-
-// SERVICES PAGE
-.services-general-header {
-    height: 100vh; // the height for this element is the 100% porcent with respect on the full view
-    background-image: url(../assets/services-background.png);
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    padding-left: .5%;
-    padding-right: .5%;
-    margin-bottom: 3rem;
-}
-
-.neutral-color {
-    color: $neutral-1 !important;   
-}
-
-.paiting-section {
-    padding: 2rem;
-    background-color: $primary-1;
-    color: $neutral-1;
+    .service-video {
+        width: auto;
+        height: auto;
+    }
 }
